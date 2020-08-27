@@ -18,7 +18,5 @@ import './index.css'
 const root = document.getElementById('app');
 
 ReactDom.render(
-  <Provider>
-    <App />
-  </Provider>
+  <App />
   , root);

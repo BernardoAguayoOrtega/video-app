@@ -3,6 +3,7 @@
 import React from 'react';
 
 import user from '../assets/user-icon.png'
+import { Link } from 'react-router-dom';
 
 //functional component
 export default function Header() {
@@ -15,8 +16,8 @@ export default function Header() {
           <p>Profile</p>
         </div>
         <ul>
-          <li><a href='/'>Account</a></li>
-          <li><a href='/'>log out</a></li>
+          <li><Link to='/login'>Account</Link></li>
+          <li><Link to='/register'>log out</Link></li>
         </ul>
       </div>
     </header>
